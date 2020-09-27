@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.grading-table {
+    border-collapse: collapse;
+    min-width: 900px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.grading-table caption {
+    font-size: 2rem;
+}
+
+.grading-table tr {
+    border: 1px solid #f4f4f4;
+}
+
+.grading-table thead tr {
+    background-color: #2a9df4;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.grading-table th,
+.grading-table td {
+    padding: 12px;
+}
+
+.grading-table tbody td {
+    border: 1px solid #b4b3b3;
+}
+
+.grading-table tbody tr:nth-child(even){
+    background-color: #e7f4fd;
+}
+
+.grading-table tbody tr:hover {
+    background-color: #5ebbfd;
+    cursor: pointer;
+    color: #fff;
+}
